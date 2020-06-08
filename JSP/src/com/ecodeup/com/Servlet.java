@@ -31,20 +31,14 @@ public class Servlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter Salida=response.getWriter();
-		
 		Salida.println("<html><body>");
-								
+		Salida.println("<h1 style='text-align:center'>Primer Servlet</h1>");
+		Salida.println(" ALUMNO: JUAN JOSE VILLALOBOS BAÑOS <br>");
 		Salida.println(" ");
-		
 		Salida.println(" ");
-		
 		Salida.println(" ");
-		
+		Salida.println("Fecha y Hora actual: " + new Date(0));
 		Salida.println("</body></html>");
-				
-		Salida.println("  <br>");
-		
-		Salida.println(" Alumno: Juan Jose Villalobos Baños <br>");
 	}
 
 	/**
